@@ -1,1 +1,1 @@
-{:auto-save? true, :theme :dark, :expansions #{"/Users/michaelplott/ClojureProjects/clojure-warframe/src" "/Users/michaelplott/ClojureProjects/clojure-warframe/src/clojure_warframe"}, :selection "*REPL*"}
+{:auto-save? true, :theme :dark, :expansions #{"/Users/michaelplott/ClojureProjects/clojure-warframe/src" "/Users/michaelplott/ClojureProjects/clojure-warframe/src/clojure_warframe" "/Users/michaelplott/ClojureProjects/clojure-warframe/resources" "/Users/michaelplott/ClojureProjects/clojure-warframe/resources/public"}, :selection "*REPL*"}

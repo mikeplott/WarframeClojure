@@ -1,14 +1,15 @@
 (set-env!
   :source-paths #{"src"}
+  :resource-paths #{"resources"}
   :dependencies '[[org.clojure/clojure "1.8.0"]
                   [nightlight "1.1.0" :scope "test"]
                   [ring "1.4.0"]
                   [hiccup "1.0.5"]
                   [compojure "1.5.1"]
                   [com.h2database/h2 "1.3.170"]
-;                 [funcool/clojure.jdbc "0.9.0"]
                   [org.clojure/java.jdbc "0.6.2-alpha3"]
-                  [org.postgresql/postgresql "9.4.1207"]])
+                  [org.postgresql/postgresql "9.4.1207"]
+                  [ring/ring-defaults "0.2.1"]])
 
 (require '[nightlight.boot :refer [nightlight]])
 
@@ -31,4 +32,3 @@
 (deftask dev []
   (with-pass-thru fileset
     (cw/-main)))
-
