@@ -90,7 +90,7 @@
 
 ;;(j/run-jetty (wrap-resource app "public") {:port 3000})
 (defn -main [& args]
-  (j/run-jetty (r/wrap-resource app "public" {:port 3000})))
+  (j/run-jetty (r/wrap-resource app "public") {:port 3000}))
 
 
 
